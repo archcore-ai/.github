@@ -9,9 +9,9 @@ Archcore is a git-native context layer for AI coding agents. Keep specs, archite
 | Repository | What it is |
 | --- | --- |
 | [cli](https://github.com/archcore-ai/cli) | Git-native project context and MCP infrastructure for AI coding agents. Owns `.archcore/`, the typed documents, the local MCP server, hooks, and agent integrations. |
-| [plugin](https://github.com/archcore-ai/plugin) | Context engineering and spec-driven development workflows for AI coding agents. Skills, intent routing, planning, review, and guardrails on Claude Code, Cursor, Codex CLI, and GitHub Copilot CLI. |
+| [plugin](https://github.com/archcore-ai/plugin) | Spec-driven development and context engineering inside your coding agent. Skills, slash commands, intent routing, gated tracks, review, and guardrails on Claude Code, Cursor, Codex CLI, and GitHub Copilot CLI. |
 
-CLI = context infrastructure. Plugin = agent workflows. Archcore = one product system. Both read and write the same `.archcore/` directory; which one you use is decided by the agent you run, not by a recommendation.
+CLI = context infrastructure. Plugin = the command surface and guardrails. Archcore = one product system. Both read and write the same `.archcore/` directory; which one you use is decided by the agent you run, not by a recommendation.
 
 ## Start
 
